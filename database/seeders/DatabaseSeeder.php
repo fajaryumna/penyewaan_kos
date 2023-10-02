@@ -10,7 +10,7 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      *
-     * @return void
+     * @return voids
      */
     public function run()
     {
@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             PemilikSeeder::class,
             KamarkosSeeder::class,
             PenyewaanSeeder::class,
-            // Tambahkan seeder lainnya jika ada
+
         ]);
     }
 }

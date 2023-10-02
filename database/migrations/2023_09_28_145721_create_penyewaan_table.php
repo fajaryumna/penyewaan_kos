@@ -16,9 +16,10 @@ return new class extends Migration
         Schema::create('penyewaan', function (Blueprint $table) {
             $table->id();
             $table->date('tanggal_penyewaan');
+            $table->integer('lama_sewa');
+            $table->date('tenggat_penbayaran');
             $table->integer('biaya_charge');
             $table->integer('denda');
-            $table->integer('harga');
             $table->timestamps();
         });
     }

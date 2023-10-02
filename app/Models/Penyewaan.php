@@ -11,8 +11,9 @@ class Penyewaan extends Model
 
     protected $fillable = [
         'tanggal_penyewaan',
+        'lama_sewa',
         'biaya_charge',
+        'tenggat_pembayaran',
         'denda',
-        'harga',
     ];
 }

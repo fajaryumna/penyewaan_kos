@@ -18,9 +18,10 @@ class PenyewaanSeeder extends Seeder
         //
         DB::table('penyewaan')->insert([
             'tanggal_penyewaan' => '2023-09-28',
+            'lama_sewa' => 2,
+            'tenggat_penbayaran' => '2023-10-28',
             'biaya_charge' => 20000,
             'denda' => 50000,
-            'harga' => 750000,
             'created_at' => now(),
             'updated_at' => now(),
         ]);
